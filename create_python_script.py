@@ -1,7 +1,7 @@
 import os 
 
 def create_python_script(filename):
-  comments = "# Start of a new Python program"
+  comments = "# Create new python programme"
   with open(filename, "a+") as f:
     f.write(comments)
     print(f.read())
